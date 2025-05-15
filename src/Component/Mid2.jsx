@@ -11,7 +11,7 @@ const Mid2 = () => {
         </Typography>
         <Box width="940px" display="flex">
           <Box marginLeft="30px">
-            <img src="./images/mid21.svg" alt="image" />
+            <img src="../images/mid21.svg" alt="image" />
           </Box>
           <Box p={9}>
             <Typography sx={{fontSize:"20px"}}>
@@ -43,7 +43,7 @@ const Mid2 = () => {
             <Button sx={{backgroundColor:"#FE612C",color:"white",p:1,fontSize:"20px",fontWeight:"600",marginTop:"30px",borderRadius:"15px"}}>Join Now</Button>
           </Box>
            <Box marginLeft="30px">
-            <img src="./images/mid22.png" alt="image" />
+            <img src="../images/mid22.png" alt="image" />
           </Box>
         </Box>
       </Box>
