@@ -55,6 +55,8 @@
 
 import React from "react";
 import { Box, Typography, Button } from "@mui/material";
+import Mid21 from "../assets/Mid21.svg"
+import Mid22 from "../assets/Mid22.png"
 
 const Mid2 = () => {
   return (
@@ -81,11 +83,7 @@ const Mid2 = () => {
         gap={4}
       >
         <Box flex={1} textAlign="center">
-          <img
-            src="./images/mid21.svg"
-            alt="mid21"
-            style={{ width: "100%", maxWidth: "400px" }}
-          />
+        <img src={Mid21} alt="mid21" style={{ width: "100%", maxWidth: "400px" }} />
         </Box>
 
         <Box flex={1} px={{ xs: 2, md: 6 }}>
@@ -160,11 +158,7 @@ const Mid2 = () => {
         </Box>
 
         <Box flex={1} textAlign="center">
-          <img
-            src="./images/mid22.png"
-            alt="mid22"
-            style={{ width: "100%", maxWidth: "400px" }}
-          />
+        <img src={Mid22} alt="mid21" style={{ width: "100%", maxWidth: "400px" }} />
         </Box>
       </Box>
     </Box>
