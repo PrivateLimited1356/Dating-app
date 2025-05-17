@@ -82,7 +82,7 @@ const Mid2 = () => {
       >
         <Box flex={1} textAlign="center">
           <img
-            src="images/mid21.svg"
+            src="./images/mid21.svg"
             alt="mid21"
             style={{ width: "100%", maxWidth: "400px" }}
           />
@@ -161,7 +161,7 @@ const Mid2 = () => {
 
         <Box flex={1} textAlign="center">
           <img
-            src="images/mid22.png"
+            src="./images/mid22.png"
             alt="mid22"
             style={{ width: "100%", maxWidth: "400px" }}
           />
